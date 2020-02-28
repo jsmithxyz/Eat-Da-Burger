@@ -1,4 +1,4 @@
-<li>
-    {{.}}
-	<button class="devour" data-id="{{this.id}}">DEVOUR!</button>
-</li>
+
+	<button class="change-dev" data-id="{{id}}" data-newdev="{{devoured}}">
+		{{#unless devoured}}Devour!{{/unless}}
+	</button>
