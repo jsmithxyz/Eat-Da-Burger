@@ -1,34 +1,45 @@
-<h1>EAT DA BURGER!</h1>
+<h1 id="main-title">EAT DA BURGER</h1>
 
+<div id="cartoonburger">
+  <img src="/assets/img/derpyburger.png" alt="derpy burger" height="250px" width="250px" />
+</div>
+
+<div id="form">
+  <h1 id="addTitle">Add a Burger to Eat</h1>
+  <form class="create-form">
+
+    <div class="form-group">
+      <input type="text" id="burg" name="name">
+    </div>
+
+    <button type="submit">Add Burger</button>
+
+  </form>
+</div>
+
+<div class="row">
+<div class="column">
 <h2>Burgers that have not been devoured!</h2>
 
 <ul>
   {{#each burgers}}
-   
-      {{#unless devoured}}
-         <li>{{this.burger_name}} {{> burgers/burger-block devoured=false}}</li>
-      {{/unless}}
-    
+
+  {{#unless devoured}}
+  <li>{{this.burger_name}} {{> burgers/burger-block devoured=false}}</li>
+  {{/unless}}
+
   {{/each}}
 </ul>
-
+</div>
+<div class="column">
 <h2>Burgers that have been devoured!</h2>
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-      <li>{{this.burger_name}}</li>
-    {{/if}}
+  {{#if devoured}}
+  <li>{{this.burger_name}}</li>
+  {{/if}}
   {{/each}}
 </ul>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burger">Burger:</label>
-    <input type="text" id="burg" name="name">
-  </div>
-
-  <button type="submit">Add Burger</button>
-</form>
+</div>
+</div>

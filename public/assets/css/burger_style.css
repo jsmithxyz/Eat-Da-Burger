@@ -1,0 +1,44 @@
+body {
+    background-color:gold;
+}
+
+#main-title {
+    text-align: center;
+    font-family: 'Pacifico';
+    color: green;
+    font-size: 5em;
+    -webkit-text-stroke: 1px red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#form {
+    text-align: center;
+}
+
+#cartoonburger {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#addTitle {
+    font-family: 'Pacifico';
+    color: green;
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+.row {
+    display: flex;
+    text-align: center;
+  }
+  
+.column {
+    flex: 50%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
