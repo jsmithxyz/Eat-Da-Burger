@@ -14,7 +14,7 @@ This application is designed to provide the user the ability of adding and keepi
 - All of these burgers, with their specific 'Devoured' status will be stored in a MySQL (JawsDB) database.
 
 DEMO of Application Functionality:
-![](EatDaBurger.gif)
+![](public/assets/img/EatDaBurger.gif)
 
 ## SQL structure
 - see [Schema](https://github.com/jsmithxyz/Eat-Da-Burger/blob/master/db/schema.sql "Schema") file for database structure!
