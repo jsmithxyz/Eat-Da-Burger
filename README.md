@@ -8,29 +8,24 @@ This application is designed to provide the user the ability of adding and keepi
 - View the Application: [Here](https://jsmithxyz-burger.herokuapp.com/ "Here")
 - View the Application Repo: [Here](https://github.com/jsmithxyz/Eat-Da-Burger "Here")
 
-- Invoking 'npm start' in this command-line application, the user will then be allowed to choose the following options and abilities:
-    - 'View Employees' - Views all employees and their respective information and roles
-    - 'View Employees by Dept' - Views employees based on department of choice by the user
-    - 'View All Departments' - Views all Departments at company
-    - 'View All Roles' - Views all Roles in company
-    - 'Add Employee' - Allows User to provide First Name, Last Name, and role of a new employee
-    - 'Add Department' - Allows User to add a new Department
-    - 'Add Role' - Allows User to add a new Role
-    - 'Delete Employee' - Allows User to remove Employee of their choosing
-    - 'Update Employee Role' - Allows User to update an existing employee's position/role
-    - 'Exit Application' - Exits Command Line Application.
+- By visiting the heroku app link above, the user will then taken to the Eat-Da-Burger app homepage.
+- Here the user will be able to input a desired burger and click the 'Add Burger' button to add it to the 'To Be Devoured' queue.
+- Once the user clicks the 'Devour it!' button next to a burger in that queue, it will then be place in the 'Devoured' column.
+- All of these burgers, with their specific 'Devoured' status will be stored in a MySQL (JawsDB) database.
 
 DEMO of Application Functionality:
-![](EmployeeTrackerDemo.gif)
+![](EatDaBurger.gif)
 
 ## SQL structure
-- see [Schema](https://github.com/jsmithxyz/employee-tracker/blob/master/schema.sql "Schema") file for database structure!
+- see [Schema](https://github.com/jsmithxyz/Eat-Da-Burger/blob/master/db/schema.sql "Schema") file for database structure!
 
 ## Tech used
-- Node.js
-- Inquirer
+- Node
+- Express
 - MySQL
-- Console.Table
+- JawsDB
+- Express-Handlebars
+- Homemade ORM
 
 ## Contributers
 - Jordan Smith
